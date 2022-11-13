@@ -1,0 +1,74 @@
+{
+    "DucksBanded": [
+        {
+            "bandNumber": "1",
+            "subspecies": "Mallard",
+            "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/308743051/1800",
+            "description": "This Mallard was Banded at Morro Estuary on March 15th, 2018 at the time of hatch. Evidence of sightings year round at Morro Bay shows that this Mallard does not migrate.",
+            "sightings": "5"
+        },
+        {
+            "bandNumber": "",
+            "subspecies": "",
+            "imageUrl": "",
+            "description": "",
+            "sightings": ""
+        },
+        {
+            "bandNumber": "",
+            "subspecies": "",
+            "imageUrl": "",
+            "description": "",
+            "sightings": ""
+        },
+        {
+            "bandNumber": "",
+            "subspecies": "",
+            "imageUrl": "",
+            "description": "",
+            "sightings": ""
+        },
+        {
+            "bandNumber": "",
+            "subspecies": "",
+            "imageUrl": "",
+            "description": "",
+            "sightings": ""
+        },
+        {
+            "bandNumber": "",
+            "subspecies": "",
+            "imageUrl": "",
+            "description": "",
+            "sightings": ""
+        },
+        {
+            "bandNumber": "",
+            "subspecies": "",
+            "imageUrl": "",
+            "description": "",
+            "sightings": ""
+        },
+        {
+            "bandNumber": "",
+            "subspecies": "",
+            "imageUrl": "",
+            "description": "",
+            "sightings": ""
+        },
+        {
+            "bandNumber": "",
+            "subspecies": "",
+            "imageUrl": "",
+            "description": "",
+            "sightings": ""
+        },
+        {
+            "bandNumber": "",
+            "subspecies": "",
+            "imageUrl": "",
+            "description": "",
+            "sightings": ""
+        }
+    ]
+}
