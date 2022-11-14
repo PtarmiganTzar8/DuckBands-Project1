@@ -9,6 +9,11 @@ function implementDucks(duck){
             <span class="sighting">${duck.sightings}</span>
         </p>
         <p>${duck.description}</p>
+    </div>
+    <div class="buttons">
+        <button> Additional Sighting </button>
+        <button> Unfortunate End </button>
+    </div>
     `
     document.querySelector('#banded-list').appendChild(file)
 }
