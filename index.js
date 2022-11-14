@@ -18,7 +18,14 @@ function implementDucks(duck){
     document.querySelector('#banded-list').appendChild(file)
 }
 
+function findBandData(){
+    fetch('http://localhost:3000/ducksBanded')
+    .then(res => res.json())
+    .then(ducksBanded => ducksBanded.forEach(duck => implementDucks(duck)))
+}
+
 function initialization(){
-    ducksBanded.forEach(duck => implementDucks(duck))
+    // ducksBanded.forEach(duck => implementDucks(duck))
+    findBandData()
 }
 initialization()
