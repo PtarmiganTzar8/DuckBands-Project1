@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="index.js"></script>
     <title>DuckBands</title>
 </head>
 <body>
@@ -13,15 +12,15 @@
         <h2>Banded Ducks</h2>
     </header>
     <div>
-        <form>
-            <label>Band Number</label>
-            <input type="text"></input>
+        <form id="newly-banded">
+            <label for="band">Band Number</label>
+            <input type="text" id="band" name="band" />
             <label>Sub-species</label>
-            <input type="text"></input>
+            <input type="text" id="sub_species" name="sub_species" />
             <label>Image</label>
-            <input type="text"></input>
+            <input type="text" id="image_url" name="image_url" />
             <label>Description</label>
-            <textarea></textarea>
+            <textarea id="description" name="description"></textarea>
             <button type="submit">Banded!</button>
         </form>
         <ul id="banded-list">
@@ -30,3 +29,4 @@
     </div>
 </body>
 </html>
+<script src="index.js"></script>
