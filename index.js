@@ -29,12 +29,17 @@ function implementDucks(duck){
         <p>Notes: ${duck.description}</p>
     </div>
     <div class="buttons">
-        <button> Additional Sighting </button>
+        <button id='visual'> Additional Sighting </button>
         <button> Unfortunate End </button>
     </div>
     `
+filed.querySelector('#visual').addEventListener('click', () => {
+    duck.sightings++
+    filed.querySelector('span').textContent = "Sightings: " + duck.sightings
+    patchingDucks(duck)
+})
+
     document.querySelector('#banded-list').appendChild(filed)
-    console.log("duck", duck)
 }
 
 //Get request to access the the db.json server, and run an iteration on the object
@@ -54,6 +59,18 @@ function newBand(duckAdd){
         body:JSON.stringify(duckAdd)
     })
     .then(res => res.json())
+}
+
+function patchingDucks(ducksBanded){
+    fetch(`http://localhost:3000/ducksBanded/${ducksBanded.id}`,{
+        method:'PATCH',
+        headers:{
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(ducksBanded)
+    })
+    .then(resp => resp.json())
+    .then(duck => console.log(duck))
 }
 
 function initialization(){
