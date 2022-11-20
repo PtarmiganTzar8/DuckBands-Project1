@@ -21,19 +21,28 @@ function implementDucks(duck){
     let filed = document.createElement('li')
     filed.className = 'filed'
     filed.innerHTML = `
-    <div class="content">
-        <h4>Band Number: ${duck.band}  </h4>
-        <h4>Sub-Species: ${duck.subspecies}</h4>
-        <p>
-            <span class="sighting">Sightings: ${duck.sightings}</span>
-        </p>
-        <p>Notes: ${duck.description}</p>
+    <div class="information">
+        <div class="content">
+            <h4>Band Number: ${duck.band}  </h4>
+            <h4>Sub-Species: ${duck.subspecies}</h4>
+            <p>
+                <span class="sighting">Sightings: ${duck.sightings}</span>
+            </p>
+            <p>Notes: ${duck.description}</p>
+        </div>
+        <style>
+            div {
+                text-align: center;
+            }
+        </style>
+        <div>
+            <img src="${duck.imageUrl}" alt="ducky photos">
+        </div>
+        <div class="buttons">
+            <button id='visual'> Additional Sighting </button>
+            <button id='ending'> Unfortunate End </button>
+        </div>
     </div>
-    <div class="buttons">
-        <button id='visual'> Additional Sighting </button>
-        <button id='ending'> Unfortunate End </button>
-    </div>
-    <img src="${duck.imageUrl}">
     `
 filed.querySelector('#visual').addEventListener('click', () => {
     duck.sightings++

@@ -12,7 +12,7 @@
       "band": "1-B",
       "subspecies": "Wood Duck",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/65533521/1800",
-      "description": "This Wood Duck was banded at Tojon Ranch, Ca, on November 3rd, 2019 during avian cholera treatment. The last sighting was in Arkansas, showing this duck has migrated on a cifferent migration highway.",
+      "description": "This Wood Duck was banded at Tojon Ranch, Ca, on November 3rd, 2019 during avian cholera treatment. The last sighting was in Arkansas, showing this duck has migrated on a different migration highway.",
       "sightings": 3,
       "id": 2
     },
@@ -53,7 +53,7 @@
       "subspecies": "Northen Shoveler",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/300124811/1800",
       "description": "This Northern Shoveler was banded on March 1st, 2018 at the time of hatch. This duck has only been sighted in Canada since banding.",
-      "sightings": 15,
+      "sightings": 19,
       "id": 7
     },
     {
