@@ -28,7 +28,6 @@ function implementDucks(duck){
             <p>
                 <span class="sighting">Sightings: ${duck.sightings}</span>
             </p>
-            <p>Notes: ${duck.description}</p>
         </div>
         <style>
             div {
@@ -37,12 +36,17 @@ function implementDucks(duck){
         </style>
         <div>
             <img src="${duck.imageUrl}" alt="ducky photos">
+            <br/>
+            <p>Notes: ${duck.description}</p>
         </div>
+        <br/>
         <div class="buttons">
             <button id='visual'> Additional Sighting </button>
             <button id='ending'> Unfortunate End </button>
         </div>
+        <br/>
     </div>
+    <br/>
     `
 filed.querySelector('#visual').addEventListener('click', () => {
     duck.sightings++
