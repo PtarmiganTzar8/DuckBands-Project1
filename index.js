@@ -24,6 +24,7 @@ function implementDucks(duck){
     <img src="${duck.imageUrl}">
     <div class="content">
         <h4>Band Number: ${duck.band}</h4>
+        
         <p>
             <span class="sighting">Sightings: ${duck.sightings}</span>
         </p>

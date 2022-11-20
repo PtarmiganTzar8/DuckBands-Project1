@@ -1,12 +1,68 @@
 {
   "ducksBanded": [
     {
-      "id": 1,
-      "band": "1",
+      "band": "1-A",
       "subspecies": "Mallard",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/308743051/1800",
       "description": "This Mallard was banded at Morro Estuary on May 15th, 2018 at the time of hatch. Evidence of sightings year round at Morro Bay shows that this Mallard does not migrate.",
-      "sightings": 47
+      "sightings": 47,
+      "id": 1
+    },
+    {
+        "band": "1-B",
+        "subspecies": "Wood Duck",
+        "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/65533521/1800",
+        "description": "This Mallard was banded at Morro Estuary on May 15th, 2018 at the time of hatch. Evidence of sightings year round at Morro Bay shows that this Mallard does not migrate.",
+        "sightings": 47,
+        "id": 2
+    },
+    {
+        "band": "1-C",
+        "subspecies": "American Widgeon",
+        "imageUrl": "https://www.allaboutbirds.org/guide/assets/photo/60017891-480px.jpg",
+        "description": "This Mallard was banded at Morro Estuary on May 15th, 2018 at the time of hatch. Evidence of sightings year round at Morro Bay shows that this Mallard does not migrate.",
+        "sightings": 47,
+        "id": 3
+    },
+    {
+        "band": "2-A",
+        "subspecies": "Gadwall",
+        "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/308742131/1800",
+        "description": "This Mallard was banded at Morro Estuary on May 15th, 2018 at the time of hatch. Evidence of sightings year round at Morro Bay shows that this Mallard does not migrate.",
+        "sightings": 47,
+        "id": 4
+    },
+    {
+        "band": "2-B",
+        "subspecies": "Ruddy Duck",
+        "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/302124271/1800",
+        "description": "This Mallard was banded at Morro Estuary on May 15th, 2018 at the time of hatch. Evidence of sightings year round at Morro Bay shows that this Mallard does not migrate.",
+        "sightings": 47,
+        "id": 5
+    },
+    {
+        "band": "3-A",
+        "subspecies": "Pintail",
+        "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/301309501/1800",
+        "description": "This Mallard was banded at Morro Estuary on May 15th, 2018 at the time of hatch. Evidence of sightings year round at Morro Bay shows that this Mallard does not migrate.",
+        "sightings": 47,
+        "id": 6
+    },
+    {
+        "band": "3-B",
+        "subspecies": "Northen Shoveler",
+        "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/300124811/1800",
+        "description": "This Mallard was banded at Morro Estuary on May 15th, 2018 at the time of hatch. Evidence of sightings year round at Morro Bay shows that this Mallard does not migrate.",
+        "sightings": 47,
+        "id": 7
+    },
+    {
+        "band": "3-C",
+        "subspecies": "Greater Scaup",
+        "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/162823881/1800",
+        "description": "This Mallard was banded at Morro Estuary on May 15th, 2018 at the time of hatch. Evidence of sightings year round at Morro Bay shows that this Mallard does not migrate.",
+        "sightings": 47,
+        "id": 8
     }
   ]
 }
