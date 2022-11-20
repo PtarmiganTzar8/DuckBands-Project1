@@ -9,60 +9,60 @@
       "id": 1
     },
     {
-        "band": "1-B",
-        "subspecies": "Wood Duck",
-        "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/65533521/1800",
-        "description": "This Wood Duck was banded at Tojon Ranch, Ca, on November 3rd, 2019 during avian cholera treatment. The last sighting was in Arkansas, showing this duck has migrated on a cifferent migration highway.",
-        "sightings": 3,
-        "id": 2
+      "band": "1-B",
+      "subspecies": "Wood Duck",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/65533521/1800",
+      "description": "This Wood Duck was banded at Tojon Ranch, Ca, on November 3rd, 2019 during avian cholera treatment. The last sighting was in Arkansas, showing this duck has migrated on a cifferent migration highway.",
+      "sightings": 3,
+      "id": 2
     },
     {
-        "band": "1-C",
-        "subspecies": "American Wigeon",
-        "imageUrl": "https://www.allaboutbirds.org/guide/assets/photo/60017891-480px.jpg",
-        "description": "This American Wigeon was banded in Lake Superior on June 20th, 2016 after being undergoing oil contamination treatment. This duck has not been sighted since April 23rd, 2019.",
-        "sightings": 4,
-        "id": 3
+      "band": "1-C",
+      "subspecies": "American Wigeon",
+      "imageUrl": "https://www.allaboutbirds.org/guide/assets/photo/60017891-480px.jpg",
+      "description": "This American Wigeon was banded in Lake Superior on June 20th, 2016 after being undergoing oil contamination treatment. This duck has not been sighted since April 23rd, 2019.",
+      "sightings": 5,
+      "id": 3
     },
     {
-        "band": "2-A",
-        "subspecies": "Gadwall",
-        "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/308742131/1800",
-        "description": "This Gadwall was banded in Sitka, Ak, on May 30th, 2020 while nesting. This has been the only Gadwall seen this far north, but has not been sighted farther north than Seattle since.",
-        "sightings": 61,
-        "id": 4
+      "band": "2-A",
+      "subspecies": "Gadwall",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/308742131/1800",
+      "description": "This Gadwall was banded in Sitka, Ak, on May 30th, 2020 while nesting. This has been the only Gadwall seen this far north, but has not been sighted farther north than Seattle since.",
+      "sightings": 61,
+      "id": 4
     },
     {
-        "band": "2-B",
-        "subspecies": "Ruddy Duck",
-        "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/302124271/1800",
-        "description": "This Ruddy Duck was banded at Echo Park Lake, in Los Angeles Ca, on November 9th, 2019 during a clean up. This duck continues to be seen throughout the lakes and ponds in the greater Los Angeles area.",
-        "sightings": 18,
-        "id": 5
+      "band": "2-B",
+      "subspecies": "Ruddy Duck",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/302124271/1800",
+      "description": "This Ruddy Duck was banded at Echo Park Lake, in Los Angeles Ca, on November 9th, 2019 during a clean up. This duck continues to be seen throughout the lakes and ponds in the greater Los Angeles area.",
+      "sightings": 18,
+      "id": 5
     },
     {
-        "band": "3-A",
-        "subspecies": "Pintail",
-        "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/301309501/1800",
-        "description": "This Pintail was banded outside the department headquarters on December 8th, 2021 during an avian cholera treatment. Evidence of sightings on a daily occurence outside of the department building shows zero migration tendencies.",
-        "sightings": 100,
-        "id": 6
+      "band": "3-A",
+      "subspecies": "Pintail",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/301309501/1800",
+      "description": "This Pintail was banded outside the department headquarters on December 8th, 2021 during an avian cholera treatment. Evidence of sightings on a daily occurence outside of the department building shows zero migration tendencies.",
+      "sightings": 100,
+      "id": 6
     },
     {
-        "band": "3-B",
-        "subspecies": "Northen Shoveler",
-        "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/300124811/1800",
-        "description": "This Northern Shoveler was banded on March 1st, 2018 at the time of hatch. This duck has only been sighted in Canada since banding.",
-        "sightings": 15,
-        "id": 7
+      "band": "3-B",
+      "subspecies": "Northen Shoveler",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/300124811/1800",
+      "description": "This Northern Shoveler was banded on March 1st, 2018 at the time of hatch. This duck has only been sighted in Canada since banding.",
+      "sightings": 15,
+      "id": 7
     },
     {
-        "band": "3-C",
-        "subspecies": "Greater Scaup",
-        "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/162823881/1800",
-        "description": "This Greater Scaup was banded at Tule Lake on January 29th, 2021 after being released into the wild after being born in captivity. Nevertheless, this duck has been sighted throughout the pacific highway, showing adaptation to migration patterns.",
-        "sightings": 36,
-        "id": 8
+      "band": "3-C",
+      "subspecies": "Greater Scaup",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/162823881/1800",
+      "description": "This Greater Scaup was banded at Tule Lake on January 29th, 2021 after being released into the wild after being born in captivity. Nevertheless, this duck has been sighted throughout the pacific highway, showing adaptation to migration patterns.",
+      "sightings": 36,
+      "id": 8
     }
   ]
 }
