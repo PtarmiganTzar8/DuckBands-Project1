@@ -45,6 +45,9 @@ function implementDucks(duck){
             <button id='ending'> Unfortunate End </button>
         </div>
         <br/>
+        <div>
+            <h5 id='mouseover'></>
+        </div>
     </div>
     <br/>
     `
@@ -59,8 +62,9 @@ filed.querySelector('#ending').addEventListener('click', () => {
     duckPerish(duck.id)
 })
 
-filed.querySelector('#ending').addEventListener('mouseover', () => alert('We are legally obliged to remind you, that before Declaring the duck dead, please check for a pulse, and initiate duck CPR if viable (unless the duck\'s family has signed a DNR).'))
-
+filed.querySelector('#ending').addEventListener('mouseover', function testFunc() {
+    filed.querySelector("#mouseover").innerHTML = "We are legally obliged to remind you, that before Declaring the duck dead, please check for a pulse, and initiate duck CPR if viable (unless the duck\'s family has signed a DNR"
+})
     document.querySelector('#banded-list').appendChild(filed)
 }
 

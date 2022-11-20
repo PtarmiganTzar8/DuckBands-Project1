@@ -29,7 +29,7 @@
       "subspecies": "Gadwall",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/308742131/1800",
       "description": "This Gadwall was banded in Sitka, Ak, on May 30th, 2020 while nesting. This has been the only Gadwall seen this far north, but has not been sighted farther north than Seattle since.",
-      "sightings": 61,
+      "sightings": 60,
       "id": 4
     },
     {
@@ -63,6 +63,14 @@
       "description": "This Greater Scaup was banded at Tule Lake on January 29th, 2021 after being released into the wild after being born in captivity. Nevertheless, this duck has been sighted throughout the pacific highway, showing adaptation to migration patterns.",
       "sightings": 36,
       "id": 8
+    },
+    {
+      "band": "3",
+      "subspecies": "Pintail",
+      "imageUrl": "https://www.allaboutbirds.org/guide/assets/og/75227621-1200px.jpg",
+      "description": "cute",
+      "sightings": 0,
+      "id": 9
     }
   ]
 }

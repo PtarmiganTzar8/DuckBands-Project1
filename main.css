@@ -25,8 +25,8 @@ div.buttons {
 img {
     margin:auto;
     display: block;
-    width:  300px;
-    height: 300px;
+    width:  400px;
+    height: 400px;
 }
 
 div.information {
@@ -34,8 +34,8 @@ div.information {
     border-color: coral;
     background-color:cornsilk;
     list-style: none;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
 ul {
