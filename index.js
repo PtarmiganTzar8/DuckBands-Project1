@@ -30,13 +30,18 @@ function implementDucks(duck){
     </div>
     <div class="buttons">
         <button id='visual'> Additional Sighting </button>
-        <button> Unfortunate End </button>
+        <button id='ending'> Unfortunate End </button>
     </div>
     `
 filed.querySelector('#visual').addEventListener('click', () => {
     duck.sightings++
     filed.querySelector('span').textContent = "Sightings: " + duck.sightings
     patchingDucks(duck)
+})
+
+filed.querySelector('#ending').addEventListener('click', () => {
+    filed.remove()
+    duckPerish(duck.id)
 })
 
     document.querySelector('#banded-list').appendChild(filed)
@@ -47,7 +52,6 @@ function findBandData(){
     fetch('http://localhost:3000/ducksBanded')
     .then(resp => resp.json())
     .then(ducksBanded => ducksBanded.forEach(duck => implementDucks(duck)))
-    console.log("test")
 }
 
 function newBand(duckAdd){
@@ -70,12 +74,20 @@ function patchingDucks(ducksBanded){
         body: JSON.stringify(ducksBanded)
     })
     .then(resp => resp.json())
-    .then(duck => console.log(duck))
+}
+
+function duckPerish(id){
+    fetch(`http://localhost:3000/ducksBanded/${id}`,{
+        method:'DELETE',
+        headers: {
+            'Content-Type':'application/json'
+        }
+    })
+    .then(res => res.json())
 }
 
 function initialization(){
     // ducksBanded.forEach(duck => implementDucks(duck))
     findBandData()
-    console.log("fun")
 }
 initialization()
