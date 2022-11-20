@@ -6,15 +6,7 @@
       "subspecies": "Mallard",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/308743051/1800",
       "description": "This Mallard was banded at Morro Estuary on May 15th, 2018 at the time of hatch. Evidence of sightings year round at Morro Bay shows that this Mallard does not migrate.",
-      "sightings": 43
-    },
-    {
-      "id": 2,
-      "band": "2",
-      "subspecies": "Wood Duck",
-      "imageUrl": "https://images.ctfassets.net/pujs1b1v0165/5iqv4rbvOogjpH8yIxmPpZ/02282d204361f7d8b3bf9694b1e64fa3/A-species-profile-on-wood-ducks.jpg?w=1200&fit=fill",
-      "description": "This Wood Duck was banded on January 28th, 2020, after it had been given medicine to combat an avian cholera outbreak. Evidence of sightings throughout the midwest, and down to Arkansas, shows that this duck is migrating. This Wood Duck was observed with seven ducklings in 2021.",
-      "sightings": "9"
+      "sightings": 47
     }
   ]
 }

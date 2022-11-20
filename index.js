@@ -2,7 +2,7 @@ document.querySelector('#newly-banded').addEventListener('submit', submitBand)
 
 function submitBand(e){
     e.preventDefault()
-    console.log(e.target.band.value)
+    let erase = document.querySelector('#newly-banded')
     let duckAdd = {
         band:e.target.band.value,
         subspecies:e.target.sub_species.value,
@@ -12,6 +12,7 @@ function submitBand(e){
     }
     implementDucks(duckAdd)
     newBand(duckAdd)
+    erase.reset()
 }
 
 
@@ -44,7 +45,7 @@ filed.querySelector('#ending').addEventListener('click', () => {
     duckPerish(duck.id)
 })
 
-filed.querySelector('#ending').addEventListener('mouseover', () => alert('We are legally obliged to remind you, that before Declaring the duck dead, please check for a pulse, and initiate duck CPR if viable (unless the duck\'s family has signed a DNR). '))
+filed.querySelector('#ending').addEventListener('mouseover', () => alert('We are legally obliged to remind you, that before Declaring the duck dead, please check for a pulse, and initiate duck CPR if viable (unless the duck\'s family has signed a DNR).'))
 
     document.querySelector('#banded-list').appendChild(filed)
 }
