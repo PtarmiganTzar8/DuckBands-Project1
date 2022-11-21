@@ -39,7 +39,7 @@ Description: Just a test! But this is a super cool bird isnt it?
 ## Reswources
 Author: Michael Lange
 Acknowledgments:
-bird pictures: Cornell University, Ornithology department
+bird pictures: The Cornell Lab of Ornithology
 
 video:
 blog:
