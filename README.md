@@ -25,7 +25,7 @@ When approaching the application, please have some of the following information 
 If you want to play around with the application first, here is some test data to use as a test!
 Band Number: 1-Z
 Sub-Scpecies: Green-Winged Teal
-Image: 
+Image: https://www.allaboutbirds.org/guide/assets/photo/63893401-720px.jpg
 Description: Just a test! But this is a super cool bird isnt it?
 
 **MAKE SURE TO DELETE THIS BIRD ONCE YOU HAVE COMPLETED YOUR PRACTICE! DO NOT DELETE ANY OTHER BIRDS**
