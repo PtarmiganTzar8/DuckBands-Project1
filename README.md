@@ -28,22 +28,24 @@ Sub-Scpecies: Green-Winged Teal
 Image: https://www.allaboutbirds.org/guide/assets/photo/63893401-720px.jpg
 Description: Just a test! But this is a super cool bird isnt it?
 
+The following link shows a quick tutorial on how to work the application:
+
 **MAKE SURE TO DELETE THIS BIRD ONCE YOU HAVE COMPLETED YOUR PRACTICE! DO NOT DELETE ANY OTHER BIRDS UNLESS DEATH CONFIRMED**
 
 ## How to work the SPA
-A new band: When entering the application in the browser, you are presented with a form to fill out, with input boxes for multiple types of information. Once you have finished banding a bird, supply the information you recorded into the input boxes. Provide the band number, sub-species, an image, and any necessary notes of the bird itself. From there, press the "Banded!" button. Once you scroll down to the bottom of the page, you will see the newly banded bird added to the list of currently banded birds across the country!
+A New Band: When entering the application in the browser, you are presented with a form to fill out, with input boxes for multiple types of information. Once you have finished banding a bird, supply the information you recorded into the input boxes. Provide the band number, sub-species, an image, and any necessary notes of the bird itself. From there, press the "Banded!" button. Once you scroll down to the bottom of the page, you will see the newly banded bird added to the list of currently banded birds across the country!
 
-A new sighting: If you see a bird in the wild that has a band belonging to the FDBB, scroll to the bird that matches the band number you saw. From here, click on the "Additional Sighting" button underneath the notes, and you will see that the sighting count for that bird will increase by 1!
+A New Sighting: If you see a bird in the wild that has a band belonging to the FDBB, scroll to the bird that matches the band number you saw. From here, click on the "Additional Sighting" button underneath the notes, and you will see that the sighting count for that bird will increase by 1!
 
 Reporting a Death: If you have recieved information about one of the banded ducks dying, we want to make sure we remove that duck from the list of banded birds. Underneath the notes is another button labeled "Report Death". If you hover your mouse over this button, a legal notice will pop up, informing you about the need to check for a pulse! Once you are confident that the duck has passed, click the "Report Death" button, and the bird will disappear from the list of banded birds.
 
 ## Conclusion
-
+Thank you for your time working at the FDBB! Your actions on this application will help us track which birds currently are banded, allowing for scientifc data to be collected and analyzed. We hope that this application was straight forward and easy to use, and provided multiple paths to interactivity. 
 
 ## Reswources
 Author: Michael Lange
 Acknowledgments:
-bird pictures: The Cornell Lab of Ornithology
+Duck Pictures: The Cornell Lab of Ornithology
+Educational Support: Flatiron School and Instructors
 
-video:
-blog:
+The following link gives some insight on the creation of this application's interactivity:
