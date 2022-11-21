@@ -55,7 +55,7 @@ filed.querySelector('#ending').addEventListener('click', () => {
     duckPerish(duck.id);
 });
 
-filed.querySelector('#ending').addEventListener('mouseover', function testFunc() {
+filed.querySelector('#ending').addEventListener('mouseover', function legalNotice() {
     filed.querySelector("#mouseover").innerHTML = "LEGAL NOTICE: Before Declaring the duck dead, please check for a pulse, and initiate duck CPR if viable (unless the duck\'s family has signed a DNR)!"
 });
     document.querySelector('#banded-list').appendChild(filed);
