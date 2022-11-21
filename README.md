@@ -28,7 +28,7 @@ Sub-Scpecies: Green-Winged Teal
 Image: https://www.allaboutbirds.org/guide/assets/photo/63893401-720px.jpg
 Description: Just a test! But this is a super cool bird isnt it?
 
-**MAKE SURE TO DELETE THIS BIRD ONCE YOU HAVE COMPLETED YOUR PRACTICE! DO NOT DELETE ANY OTHER BIRDS**
+**MAKE SURE TO DELETE THIS BIRD ONCE YOU HAVE COMPLETED YOUR PRACTICE! DO NOT DELETE ANY OTHER BIRDS UNLESS DEATH CONFIRMED**
 
 ## How to work the SPA
 
@@ -43,24 +43,3 @@ bird pictures: The Cornell Lab of Ornithology
 
 video:
 blog:
-
-
-
-To do list:
-1) write rough draft read me
-2) fix commits (+10)
-5) button CSS make look better (symantic UI for CSS)
-6) blog
-7) reread all instructions and add anything if missing
-8) add anything else?
-9) video
-10) double check asy
-double check callback
-
-
-
-
-extra stuff to add
-1) timer for legal alert
-2) making patch for notes
-3) outline
