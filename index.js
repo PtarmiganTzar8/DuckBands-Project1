@@ -28,21 +28,17 @@ function implementDucks(duck){
             </p>
         </div>
         <div>
-            <img src="${duck.imageUrl}" alt="ducky photos">
-            <br/>
+            <img src="${duck.imageUrl}" alt="ducky photos"><br/>
             <p>Notes: ${duck.description}</p>
-        </div>
-        <br/>
+        </div><br/>
         <div id="buttons">
             <button id='visual'> Additional Sighting </button>
             <button id='ending'> Report Death </button>
-        </div>
-        <br/>
+        </div><br/>
         <div>
             <h5 id='mouseover'></>
         </div>
-    </div>
-    <br/>
+    </div><br/>
     `
 filed.querySelector('#visual').addEventListener('click', () => {
     duck.sightings++
