@@ -33,7 +33,7 @@ function implementDucks(duck){
             <p>Notes: ${duck.description}</p>
         </div>
         <br/>
-        <div class="buttons">
+        <div id="buttons">
             <button id='visual'> Additional Sighting </button>
             <button id='ending'> Report Death </button>
         </div>
