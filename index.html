@@ -10,24 +10,29 @@
 <body>
     <header>
         <h1>Federal Department of Bird Banding</h1>
-        <h2>Banded Ducks</h2>
-        <h3>Welcome to the FDBB's (Federal Department of Bird Banding) website! Here, volunteers and employees are easily able to record the banding of birds, and the sightings or deaths of previously banded birds!</h3>
+        <img src="https://thumb.spokesman.com/smHCTtFhdtLzRQByGtMtOb1k85Y=/1200x0/media.spokesman.com/photos/2015/09/21/US_fish-and-wildlife_logo.jpg">
+        <h3>Welcome to the FDBB's (Federal Department of Bird Banding) website! Here, volunteers and employees are easily able to record the banding of birds, and the sightings or deaths of previously banded birds!</h3><br/>
     </header>
     <div>
         <form id="newly-banded">
-            <label for="band">Band Number</label><br/>
+            <h7>Please submit the following information of newly banded ducks.</h7><br/><br/>
+            <label for="band">Band Number:</label><br/>
             <input type="text" id="band" name="band" />
             <br/><br/>
-            <label>Sub-species</label><br/>
+            <label>Sub-species:</label><br/>
             <input type="text" id="sub_species" name="sub_species" />
             <br/><br/>
-            <label>Image</label><br/>
+            <label>Image:</label><br/>
             <input type="text" id="image_url" name="image_url" />
             <br/><br/>
-            <label>Description</label><br/>
+            <label>Description:</label><br/>
             <textarea id="description" name="description"></textarea><br/>
-            <button type="submit">Banded!</button>
-        </form>
+            <button type="submit">Banded!</button><br/>
+            <h6> </h6>
+        </form><br/><br/><br/>
+        <div>
+            <h3>Current Banded Birds</h3>
+        </div>
         <ul id="banded-list">
             <!-- banded birds -->
         </ul>
