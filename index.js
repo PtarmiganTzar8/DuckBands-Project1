@@ -37,7 +37,7 @@ function implementDucks(duck){
         <br/>
         <div class="buttons">
             <button id='visual'> Additional Sighting </button>
-            <button id='ending'> Unfortunate End </button>
+            <button id='ending'> Report Death </button>
         </div>
         <br/>
         <div>
