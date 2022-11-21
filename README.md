@@ -33,9 +33,9 @@ Description: Just a test! But this is a super cool bird isnt it?
 ## How to work the SPA
 A new band: When entering the application in the browser, you are presented with a form to fill out, with input boxes for multiple types of information. Once you have finished banding a bird, supply the information you recorded into the input boxes. Provide the band number, sub-species, an image, and any necessary notes of the bird itself. From there, press the "Banded!" button. Once you scroll down to the bottom of the page, you will see the newly banded bird added to the list of currently banded birds across the country!
 
-A new sighting: If you see a bird in the wild that has a band belonging to the FDBB, scroll to the bird that matches the band number you saw. From here, click on the "Additional Sighting" button, and you will see that the sighting count for that bird will increase by 1!
+A new sighting: If you see a bird in the wild that has a band belonging to the FDBB, scroll to the bird that matches the band number you saw. From here, click on the "Additional Sighting" button underneath the notes, and you will see that the sighting count for that bird will increase by 1!
 
-Deat
+Reporting a Death: If you have recieved information about one of the banded ducks dying, we want to make sure we remove that duck from the list of banded birds. Underneath the notes is another button labeled "Report Death". If you hover your mouse over this button, a legal notice will pop up, informing you about the need to check for a pulse! Once you are confident that the duck has passed, click the "Report Death" button, and the bird will disappear from the list of banded birds.
 
 ## Conclusion
 
