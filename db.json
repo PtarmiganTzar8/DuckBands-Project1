@@ -5,7 +5,7 @@
       "subspecies": "Mallard",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/308743051/1800",
       "description": "This Mallard was banded at Morro Estuary, Ca, on May 15th, 2018 at the time of hatch. Evidence of sightings year round at Morro Bay shows that this Mallard does not migrate.",
-      "sightings": 18,
+      "sightings": 23,
       "id": 1
     },
     {
@@ -13,7 +13,7 @@
       "subspecies": "Wood Duck",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/65533521/1800",
       "description": "This Wood Duck was banded at Tojon Ranch, Ca, on November 3rd, 2019 during avian cholera treatment. The last sighting was in Arkansas, showing this duck has migrated on a different migration highway.",
-      "sightings": 3,
+      "sightings": 4,
       "id": 2
     },
     {
@@ -61,16 +61,8 @@
       "subspecies": "Greater Scaup",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/162823881/1800",
       "description": "This Greater Scaup was banded at Tule Lake on January 29th, 2021 after being released into the wild after being born in captivity. Nevertheless, this duck has been sighted throughout the pacific highway, showing adaptation to migration patterns.",
-      "sightings": 36,
+      "sightings": 39,
       "id": 8
-    },
-    {
-      "band": "3",
-      "subspecies": "Pintail",
-      "imageUrl": "https://www.allaboutbirds.org/guide/assets/og/75227621-1200px.jpg",
-      "description": "cute",
-      "sightings": 0,
-      "id": 9
     }
   ]
 }

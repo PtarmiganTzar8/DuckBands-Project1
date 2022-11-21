@@ -48,11 +48,17 @@ blog:
 
 To do list:
 1) write rough draft read me
-2) fix commits
-3) fix bug with mouseover event listener
-4) investigate JSON post without refresh
-5) button up CSS
+2) fix commits (+10)
+5) button CSS make look better (symantic UI for CSS)
 6) blog
 7) reread all instructions and add anything if missing
 8) add anything else?
 9) video
+
+
+
+
+extra stuff to add
+1) timer for legal alert
+2) making patch for notes
+3) outline
