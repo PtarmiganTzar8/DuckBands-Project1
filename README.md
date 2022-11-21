@@ -29,6 +29,7 @@ Image: https://www.allaboutbirds.org/guide/assets/photo/63893401-720px.jpg
 Description: Just a test! But this is a super cool bird isnt it?
 
 The following link shows a quick tutorial on how to work the application:
+https://www.youtube.com/watch?v=VZWekvqzbrc
 
 **MAKE SURE TO DELETE THIS BIRD ONCE YOU HAVE COMPLETED YOUR PRACTICE! DO NOT DELETE ANY OTHER BIRDS UNLESS DEATH CONFIRMED**
 
@@ -49,3 +50,6 @@ Duck Pictures: The Cornell Lab of Ornithology
 Educational Support: Flatiron School and Instructors
 
 The following link gives some insight on the creation of this application's interactivity:
+https://medium.com/@michael.d.lange88/using-event-listeners-to-increase-user-interactivity-b8da359e6648
+
+
