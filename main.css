@@ -56,3 +56,13 @@ form#newly-banded {
 header {
     text-align: center;
 }
+
+h5 {
+    color:crimson;
+    font-weight: bold;
+    font-style: italic;
+}
+
+div {
+    text-align: center;
+}

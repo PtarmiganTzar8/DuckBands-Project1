@@ -29,11 +29,6 @@ function implementDucks(duck){
                 <span class="sighting">Sightings: ${duck.sightings}</span>
             </p>
         </div>
-        <style>
-            div {
-                text-align: center;
-            }
-        </style>
         <div>
             <img src="${duck.imageUrl}" alt="ducky photos">
             <br/>
