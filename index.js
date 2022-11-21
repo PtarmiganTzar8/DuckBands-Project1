@@ -1,25 +1,23 @@
-document.querySelector('#newly-banded').addEventListener('submit', submitBand)
+document.querySelector('#newly-banded').addEventListener('submit', submitBand);
 
 function submitBand(e){
-    e.preventDefault()
-    let erase = document.querySelector('#newly-banded')
+    e.preventDefault();
+    let erase = document.querySelector('#newly-banded');
     let duckAdd = {
         band:e.target.band.value,
         subspecies:e.target.sub_species.value,
         imageUrl:e.target.image_url.value,
         description:e.target.description.value,
         sightings: 0
-    }
-    implementDucks(duckAdd)
-    newBand(duckAdd)
-    erase.reset()
+    };
+    implementDucks(duckAdd);
+    newBand(duckAdd);
+    erase.reset();
 }
 
-
-//DOM Manipulation function, adding db.json data to the SPA  
 function implementDucks(duck){
-    let filed = document.createElement('li')
-    filed.className = 'filed'
+    let filed = document.createElement('li');
+    filed.className = 'filed';
     filed.innerHTML = `
     <div class="information">
         <div class="content">
@@ -49,26 +47,25 @@ function implementDucks(duck){
 filed.querySelector('#visual').addEventListener('click', () => {
     duck.sightings++
     filed.querySelector('span').textContent = "Sightings: " + duck.sightings
-    patchingDucks(duck)
-})
+    patchingDucks(duck);
+});
 
 filed.querySelector('#ending').addEventListener('click', () => {
-    filed.remove()
-    duckPerish(duck.id)
-})
+    filed.remove();
+    duckPerish(duck.id);
+});
 
 filed.querySelector('#ending').addEventListener('mouseover', function testFunc() {
     filed.querySelector("#mouseover").innerHTML = "LEGAL NOTICE: Before Declaring the duck dead, please check for a pulse, and initiate duck CPR if viable (unless the duck\'s family has signed a DNR)!"
-})
-    document.querySelector('#banded-list').appendChild(filed)
+});
+    document.querySelector('#banded-list').appendChild(filed);
 }
 
-//Get request to access the the db.json server, and run an iteration on the object
 function findBandData(){
     fetch('http://localhost:3000/ducksBanded')
     .then(resp => resp.json())
     .then(ducksBanded => ducksBanded.forEach(duck => implementDucks(duck)))
-}
+};
 
 function newBand(duckAdd){
     fetch('http://localhost:3000/ducksBanded',{
@@ -79,7 +76,7 @@ function newBand(duckAdd){
         body:JSON.stringify(duckAdd)
     })
     .then(res => res.json())
-}
+};
 
 function patchingDucks(ducksBanded){
     fetch(`http://localhost:3000/ducksBanded/${ducksBanded.id}`,{
@@ -90,7 +87,7 @@ function patchingDucks(ducksBanded){
         body: JSON.stringify(ducksBanded)
     })
     .then(resp => resp.json())
-}
+};
 
 function duckPerish(id){
     fetch(`http://localhost:3000/ducksBanded/${id}`,{
@@ -100,10 +97,10 @@ function duckPerish(id){
         }
     })
     .then(res => res.json())
-}
+};
 
 function initialization(){
-    // ducksBanded.forEach(duck => implementDucks(duck))
     findBandData()
-}
+};
+
 initialization()
