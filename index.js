@@ -1,9 +1,11 @@
+findBandData()
+
 document.querySelector('#newly-banded').addEventListener('submit', submitBand);
 
 function submitBand(e){
     e.preventDefault();
-    let erase = document.querySelector('#newly-banded');
-    let duckAdd = {
+    const erase = document.querySelector('#newly-banded');
+    const duckAdd = {
         band:e.target.band.value,
         subspecies:e.target.sub_species.value,
         imageUrl:e.target.image_url.value,
@@ -15,8 +17,8 @@ function submitBand(e){
     erase.reset();
 }
 
-function implementDucks(duck){
-    let filed = document.createElement('li');
+const implementDucks = (duck) => {
+    const filed = document.createElement('li');
     filed.className = 'filed';
     filed.innerHTML = `
     <div class="information">
@@ -40,8 +42,9 @@ function implementDucks(duck){
         </div>
     </div><br/>
     `
+
 filed.querySelector('#visual').addEventListener('click', () => {
-    duck.sightings++
+    ++duck.sightings
     filed.querySelector('span').textContent = "Sightings: " + duck.sightings
     patchingDucks(duck);
 });
@@ -51,9 +54,10 @@ filed.querySelector('#ending').addEventListener('click', () => {
     duckPerish(duck.id);
 });
 
-filed.querySelector('#ending').addEventListener('mouseover', function legalNotice() {
+filed.querySelector('#ending').addEventListener('mouseover', () => {
     filed.querySelector("#mouseover").innerHTML = "LEGAL NOTICE: Before Declaring the duck dead, please check for a pulse, and initiate duck CPR if viable (unless the duck\'s family has signed a DNR)!"
 });
+
     document.querySelector('#banded-list').appendChild(filed);
 }
 
@@ -61,13 +65,17 @@ function findBandData(){
     fetch('http://localhost:3000/ducksBanded')
     .then(resp => resp.json())
     .then(ducksBanded => ducksBanded.forEach(duck => implementDucks(duck)))
+    .catch(function (error) {
+        alert("Error: The Ducks are quacking tired.");
+    })
 };
 
 function newBand(duckAdd){
     fetch('http://localhost:3000/ducksBanded',{
         method: 'POST',
         headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json', 
+            'Accept': 'application/json'
         },
         body:JSON.stringify(duckAdd)
     })
@@ -94,9 +102,3 @@ function duckPerish(id){
     })
     .then(res => res.json())
 };
-
-function initialization(){
-    findBandData()
-};
-
-initialization()

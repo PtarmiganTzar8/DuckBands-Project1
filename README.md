@@ -51,5 +51,3 @@ Educational Support: Flatiron School and Instructors
 
 The following link gives some insight on the creation of this application's interactivity:
 https://medium.com/@michael.d.lange88/using-event-listeners-to-increase-user-interactivity-b8da359e6648
-
-
